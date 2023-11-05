@@ -24,7 +24,11 @@ def randomData(n):
     return res
 
 def sortedData(n):
-    return randomData(n).sort()
+    res = randomData(n)
+    res.sort()
+    return res
 
 def reversedData(n):
-    return randomData(n).sort(reverse=True)
+    res = randomData(n)
+    res.sort(reverse=True)
+    return res
